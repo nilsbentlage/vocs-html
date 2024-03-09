@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js" defer></script>
+    <title>HTML Vokabeltrainer</title>
+  </head>
+  <body>
+    <main>
+      <h1>HTML Vokabeltrainer</h1>
+      <select id="modus">
+        <option value="deutsch">Deutsch - Englisch</option>
+        <option value="englisch">Englisch - Deutsch</option>
+      </select>
+      <div id="logo"><div id="icon"></div></div>
+      <div id="spiel">
+        <div id="vokabel">-- Vokabel nicht geladen --</div>
+        <form id="eingabe">
+          <input type="text" name="antwort" id="antwort" autocomplete="off" />
+          <button type="submit">OK</button>
+        </form>
+        <div id="ergebnis"></div>
+      </div>
+      <p id="punktestand">
+        Du hast <span id="punktestand-zaehler" class="farbe">0</span>/<span
+          id="punktestand-maximal"
+        ></span>
+        geschafft.
+      </p>
+    </main>
+    <p id="copyright">© 2024 | Nils Bentlage</p>
+  </body>
+</html>
