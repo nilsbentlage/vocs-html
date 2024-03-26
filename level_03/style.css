@@ -1,0 +1,92 @@
+@keyframes happy {
+  0% {
+    transform: scale(1);
+    opacity: 0.5;
+  }
+  50% {
+    transform: scale(1.25);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0;
+  }
+}
+
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  text-align: center;
+  background-color: #222;
+  color: white;
+  margin: 0;
+  padding: 0;
+
+  --farbakzent: #ff8d2f;
+}
+
+#logo {
+  width: 10rem;
+  height: 10rem;
+  display: inline-block;
+  background-color: var(--farbakzent);
+  mask-image: url("assets/logo.svg");
+  mask-size: cover;
+}
+
+main {
+  background-color: #333;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  padding: 2rem 4rem;
+}
+
+#vokabel {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-block: 2rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--farbakzent);
+}
+
+#eingabe input {
+  font-size: 1.5rem;
+  margin-block: 1rem;
+  padding: 0.5rem;
+}
+
+#eingabe button {
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem;
+  margin-block: 2rem;
+  background-color: var(--farbakzent);
+  color: #333;
+  border: 2px solid var(--farbakzent);
+  border-radius: 0.15rem;
+  cursor: pointer;
+}
+
+#ergebnis {
+  height: 1rem;
+  margin-block: 1rem;
+  opacity: 0;
+}
+
+#ergebnis.animation {
+  animation: happy 1s ease-in-out forwards;
+}
+
+#punktestand {
+  font-size: 1.25rem;
+  margin: 2rem;
+}
+
+#punktestand-zaehler {
+  color: var(--farbakzent);
+}
+
+#copyright {
+  position: absolute;
+  bottom: 1rem;
+}
