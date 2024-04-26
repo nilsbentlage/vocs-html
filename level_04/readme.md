@@ -1,0 +1,1 @@
+In diesem Level geht es darum, dem Spiel ein definiertes Ende zu geben. Dazu fügen wir ezwei neue Funktionen hinzu, die das Spiel beenden, wenn der Spieler oder die Spielerin alle Fragen beantwortet hat. Danach wird das Spiel zurückgesetzt und kann erneut gespielt werden.

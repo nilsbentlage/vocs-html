@@ -1,0 +1,1 @@
+Die Anzeige des Ergebnisses könnte noch deutlich werden, darum implementieren wir in dieser Lektion eine Funktion, die das Ergebnis anzeigt. Die zugehörige Animation wird in der nächsten Lektion implementiert.

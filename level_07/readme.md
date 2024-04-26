@@ -1,0 +1,1 @@
+Da das Spiel noch relativ schlicht aussieht, machen wir uns in dieser Lektion mit CSS vertraut. Wir vergeben Farben, Schriftarten und Abstände, um das Spiel optisch aufzuwerten. Außerdem fügen wir ein Logo hinzu, das wir uns aus dem Internet heruntergeladen haben. Dazu kannst du dich auf svgrepo.com umschauen, dir ein schönes Logo aussuchen und es in deinem Projekt verwenden.

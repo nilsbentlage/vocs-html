@@ -1,0 +1,3 @@
+In diesem Level fügen wir einen Punktestand hinzu, so dass der Spieler oder die Spielerin eine Auskunft darüber erhält, wie viele Vokabeln er oder sie bereits geschafft hat. Dazu fügen wir eine neue Funktion hinzu, die den Punktestand berechnet und anzeigen lässt.
+
+Der Maximale Punktestand ist die Anzahl der Vokabeln, die in der Datenbank gespeichert sind. Der Spieler oder die Spielerin erhält einen Punkt für jede richtige Antwort. Der Punktestand wird unterhalb der Ein- und Ausgabefelder angezeigt.

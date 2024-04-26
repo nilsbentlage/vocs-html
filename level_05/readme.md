@@ -1,0 +1,1 @@
+In diesem Level dreht sich alles um die Animation des Schriftzugs, der das Ergebnis anzeigt. Dabei testen wir uns an die richtigen Parameter für die Animation heran und erzeugen so eine lesbare aber trotzdem spielerische Animation, die das Ergebnis anzeigt.
